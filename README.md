@@ -1,3 +1,3 @@
 # Cronometro
 
-## Pequeno projeto de cronometro na introdução a ReactJs 📚
+## Pequena Demo de cronometro feito nos exercicios de introdução a ReactJs 📚
