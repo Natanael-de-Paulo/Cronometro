@@ -5,23 +5,39 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 100%;
+}
+
+@media (max-width: 768px) {
+  .container{
+    font-size: 96%;
+  }
+}
+
+@media (max-width: 480px) {
+  .container{
+    font-size: 92%;
+  }
 }
 
 .contentTimer {
-  position: relative;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .img {
-  width: 350px;
-  height: 350px;
+  max-width: 21.87em;
+  width: 100%;
+  height: 21.87em;
+  object-fit: contain;
+  position: relative;
 }
 
 .timer {
   position: absolute;
-  font: 5rem italic sans-serif;
+  font: 5em italic sans-serif;
   text-align: center;
 
   z-index: 100;
@@ -37,11 +53,11 @@
 }
 
 .btn {
-  width: 100px;
+  width: 6.25em;
   border-radius: 50%;
   background: whitesmoke;
 
-  padding: 2rem 0.5rem;
+  padding: 2em 0.5em;
   text-align: center;
 }
 

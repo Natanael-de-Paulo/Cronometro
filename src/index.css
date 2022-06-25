@@ -8,6 +8,12 @@ body {
   background: #ddd;
 }
 
+@media (max-width: 768px) {
+  body{
+    font-size: 95.8%;
+  }
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
